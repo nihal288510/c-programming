@@ -1,0 +1,28 @@
+void main()
+{
+List abc=[1,2,3,4,'5'];
+  print(abc);
+  print(abc.length);
+  print(abc.last);
+  print(abc.first);
+  print(abc.reversed);
+  print(abc[4]);
+  abc.add(12);
+  print(abc);
+  abc.addAll([0,7,6]);
+  print(abc);
+  abc.insert(2,13);
+  print(abc);
+  abc.remove(2);
+  print (abc);
+  abc.removeAt(2);
+  print(abc);
+  abc.removeLast();
+  print (abc);
+  abc.removeRange(3,6);
+  print(abc);
+  
+  
+  
+  
+}

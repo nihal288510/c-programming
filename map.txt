@@ -1,0 +1,10 @@
+void main(){
+ Map a={'name':'abc','place':'calict','age':24};
+  print(a);
+  print(a['age']);
+  print(a.length);
+ // a.clear();
+  //print(a);
+  a.remove('name');
+  print(a);
+}

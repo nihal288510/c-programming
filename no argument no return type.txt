@@ -1,0 +1,21 @@
+void main(){
+  oddeven();
+  
+ 
+  
+}
+
+void oddeven(){
+  int n=6;
+  var result;
+  if(n%2==0){
+    result='even';
+    
+  }else{
+    result='odd';}
+    print(result);
+  
+  
+ 
+ 
+}
